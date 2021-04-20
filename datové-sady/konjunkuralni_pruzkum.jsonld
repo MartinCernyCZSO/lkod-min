@@ -1,0 +1,79 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://data.gov.cz/zdroj/datov%C3%A9-sady/http---vdb.czso.cz-pll-eweb-package_show-id-070013",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Konjunkturální průzkumy",
+    "en": "Business cycle surveys"
+  },
+  "popis": {
+    "cs": "Datová sada obsahuje měsíční časovou řadu statistických údajů s výsledky konjunkturálních průzkumů u podnikatelů a spotřebitelů a souhrnný indikátor důvěry za Českou republiku od roku 2000. Uvedeny jsou údaje o konjunkturálním saldu a také bazické indexy konjunkturálních průzkumů.",
+    "en": "The dataset contains a monthly time series of statistical data of business cycle survey of entrepreneurs and consumer. Aslo is added the composite confidence indicator for the Czech Republic since 2000. Business cycle balance data as well as basic indices of business cycle survey are presented."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2000-01-01",
+    "konec": "2021-03-31"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "konjunkturální průzkum",
+      "indikátor důvěry",
+      "saldo indikátoru důvěry",
+      "důvěra spotřebitelů",
+      "důvěra podnikatelů"
+    ],
+    "en": [
+      "business cycle survey",
+      "confidence indicator",
+      "confidence indicator balance",
+      "consumer confidence",
+      "business confidence"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
+  "dokumentace": "https://www.czso.cz/documents/62353418/123365289/070013-20dds.htm",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/ECON"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/4256"
+  ],
+  "specifikace": [
+    "https://opendata.gov.cz/standardy:technicke-standardy-pro-datove-sady-na-stupni-3"
+  ],
+  "časové_rozlišení": "P1M",
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Martin Černý"
+    },
+    "e-mail": "mailto:martin.cerny@czso.cz"
+  },
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "název": {
+        "cs": "Data do března 2021",
+        "en": "Data until March 2021"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://www.czso.cz/documents/62353418/143520444/070013-21data032421.csv",
+      "přístupové_url": "https://www.czso.cz/documents/62353418/143520444/070013-21data032421.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://www.czso.cz/documents/62353418/143520444/070013-21schema032421.json"
+    }
+  ]
+}
