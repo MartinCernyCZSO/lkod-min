@@ -13,12 +13,12 @@
     "kontaktní_bod": {
         "typ": "Organizace",
         "jméno": {
-          "cs": "Jan Novák",
-          "en": "John Newman"
+          "cs": "Český statistický úřad",
+          "en": "Czech Statistical Office"
         },
-        "e-mail": "mailto:newman@organization.cz"
+        "e-mail": "mailto:martin.cerny@czso.cz"
     },
-    "domovská_stránka": "https://data.gov.cz",
-    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008",
+    "domovská_stránka": "https://data.gov.cz/datov%C3%A9-sady?poskytovatel=https%3A%2F%2Frpp-opendata.egon.gov.cz%2Fodrpp%2Fzdroj%2Forg%C3%A1n-ve%C5%99ejn%C3%A9-moci%2F00025593",
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00025593",
     "datová_sada": []
 }
