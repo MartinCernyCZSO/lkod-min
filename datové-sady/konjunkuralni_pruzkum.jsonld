@@ -1,6 +1,6 @@
 {
   "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-  "iri": "https://data.gov.cz/zdroj/datov%C3%A9-sady/http---vdb.czso.cz-pll-eweb-package_show-id-070013",
+  "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datov%C3%A9-sady/konjunkuralni_pruzkum.jsonld",
   "typ": "Datová sada",
   "název": {
     "cs": "Konjunkturální průzkumy",
