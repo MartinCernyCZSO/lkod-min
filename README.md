@@ -14,7 +14,7 @@ Toto IRI zjistíte po kliknutí na tlačítko `Raw` při prohlížení souboru p
 Skládá se vždy z `https://raw.githubusercontent.com/`, `organizace/`, `repozitář/`, `jméno-větve/`, `cesta k souboru v repozitáři`.
 
 Tato IRI datových sad lze také použít pro opětovné načtení záznamu do [formuláře NKOD](https://data.gov.cz/formulář/registrace-datové-sady) pro jeho editaci.
-Ve formuláři staří v prvním kroku dole kliknout na "Načíst záznam z URL", a IRI datové sady tam vyplnit.
+Ve formuláři stačí v prvním kroku dole kliknout na "Načíst záznam z URL", a IRI datové sady tam vyplnit.
 
 ### IRI katalogu
 Při [registraci lokálního katalogu do NKOD](https://data.gov.cz/formulář/registrace-lokálního-katalogu) pak stačí zvolit jako Typ API lokálního katalogu `DCAT-AP Dokumenty` a do URL LKOD API vyplnit URL [souboru katalogu](katalog.jsonld) podobně, jako pro datové sady, tedy např. `https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/katalog.jsonld`
