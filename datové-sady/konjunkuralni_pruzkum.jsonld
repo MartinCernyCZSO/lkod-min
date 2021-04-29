@@ -55,9 +55,11 @@
     },
     "e-mail": "mailto:martin.cerny@czso.cz"
   },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00025593",
   "distribuce": [
     {
       "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datové-sady/konjunkuralni_pruzkum.jsonld/distribuce/0",
       "název": {
         "cs": "Data do března 2021",
         "en": "Data until March 2021"
