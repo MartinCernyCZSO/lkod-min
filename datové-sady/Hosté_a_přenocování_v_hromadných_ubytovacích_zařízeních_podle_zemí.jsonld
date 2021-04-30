@@ -1,0 +1,80 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datové-sady/Hosté_a_přenocování_v_hromadných_ubytovacích_zařízeních_podle_zemí.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Hosté a přenocování v hromadných ubytovacích zařízeních podle zemí",
+    "en": "Guests and overnight stays at collective accommodation establishments by country"
+  },
+  "popis": {
+    "cs": "Datová sada představuje měsíční časovou řadu (od roku 2012) se statistickými údaji o počtech turistů, přenocování turistů a průměrném počtu přenocování v hromadných ubytovacích zařízeních v České republice a v jednotlivých krajích podle země trvalého pobytu turisty.",
+    "en": "The dataset contains a time series of monthly data (since 2012) with statistics on the number of tourists, overnight stays of tourists and the average number of overnight stays in collective accommodation establishments in the Czech Republic and in individual regions by country of tourist's residence."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/country/AUS",
+    "http://publications.europa.eu/resource/authority/country/AUT",
+    "http://publications.europa.eu/resource/authority/country/BEL",
+    "http://publications.europa.eu/resource/authority/country/BRA"
+  ],
+  "prostorové_pokrytí": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2012-01-01",
+    "konec": "2020-12-31"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "cestovní ruch",
+      "návštěvnost",
+      "ubytovací zařízení",
+      "průměrný počet přenocování",
+      "přenocování"
+    ],
+    "en": [
+      "tourism",
+      "guests",
+      "accommodation",
+      "average number of overnight stays",
+      "overnight stays"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY",
+  "dokumentace": "https://www.czso.cz/documents/62353418/117798694/020063-19dds.htm",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/4470"
+  ],
+  "specifikace": [
+    "https://opendata.gov.cz/standardy:technicke-standardy-pro-datove-sady-na-stupni-3"
+  ],
+  "časové_rozlišení": "P1M",
+  "kontaktní_bod": {},
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00025593",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datové-sady/Hosté_a_přenocování_v_hromadných_ubytovacích_zařízeních_podle_zemí.jsonld/distribuce/0",
+      "název": {
+        "cs": "Data do 4. čtvrtletí 2020 - revize",
+        "en": "Data until Q4 2020 - revision"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://www.czso.cz/documents/62353418/158138315/020063-20data040121.csv",
+      "přístupové_url": "https://www.czso.cz/documents/62353418/158138315/020063-20data040121.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://www.czso.cz/documents/62353418/158138315/020063-20schema040121.json"
+    }
+  ]
+}
