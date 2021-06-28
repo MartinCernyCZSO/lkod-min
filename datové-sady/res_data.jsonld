@@ -1,0 +1,75 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datové-sady/res_data.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Registr ekonomických subjektů",
+    "en": "Business Register"
+  },
+  "popis": {
+    "cs": "Datová sada obsahuje seznam ekonomických subjektů, kterým je každá právnická osoba, fyzická osoba s postavením podnikatele a organizační složka státu, která je účetní jednotkou. Datová sada je měsíčně aktualizovaná a obsahuje stav ke konci uváděného měsíce.",
+    "en": ""
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2021-05-31",
+    "konec": "2021-05-31"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "registr ekonoomických subjektů",
+      "RES"
+    ],
+    "en": [
+      "Business Register"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
+  "dokumentace": "https://www.czso.cz/csu/res/o_registru_res",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/ECON"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/4256"
+  ],
+  "specifikace": [
+    "https://opendata.gov.cz/standardy:technicke-standardy-pro-datove-sady-na-stupni-3"
+  ],
+  "časové_rozlišení": "P1M",
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Martin Černý, ČSÚ"
+    },
+    "e-mail": "mailto:martin.cerny@czso.cz"
+  },
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00025593",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/datové-sady/res_data.jsonld/distribuce/0",
+      "název": {
+        "cs": "Seznam ekonomických subjektů",
+        "en": ""
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://www.czso.cz/staticke/data/otevrena_data/res_test/res_data.csv",
+      "přístupové_url": "https://www.czso.cz/staticke/data/otevrena_data/res_test/res_data.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://www.czso.cz/staticke/data/otevrena_data/res_test/res_data-metadata.json"
+    }
+  ]
+}
+
