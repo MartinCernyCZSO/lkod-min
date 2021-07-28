@@ -1,6 +1,5 @@
 # Lokální katalog ČSÚ - test
 Metadata lokálního katalogu otevřených dat ČSÚ v JSON-LD.
-Nové rozhraní LKOD, které obsahuje všechny datové sady OD ČSÚ, je nově připravované zde - https://vdb.czso.cz/pll/eweb/lkod_ld.katalog
 
 ## Záznamy datových sad
 Pro přidání či editaci záznamu použijte [formulář NKOD v režimu LKOD](https://data.gov.cz/formulář/registrace-datové-sady).
@@ -19,3 +18,6 @@ Ve formuláři stačí v prvním kroku dole kliknout na "Načíst záznam z URL"
 
 ### IRI katalogu
 Při [registraci lokálního katalogu do NKOD](https://data.gov.cz/formulář/registrace-lokálního-katalogu) pak stačí zvolit jako Typ API lokálního katalogu `DCAT-AP Dokumenty` a do URL LKOD API vyplnit URL [souboru katalogu](katalog.jsonld) podobně, jako pro datové sady, tedy např. `https://raw.githubusercontent.com/MartinCernyCZSO/lkod-min/main/katalog.jsonld`
+
+# Nové rozhraní LKOD obsahující všechny datové sady OD ČSÚ
+Připravované nové rozhraní LKOD je k otestování zde - https://vdb.czso.cz/pll/eweb/lkod_ld.katalog
